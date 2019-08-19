@@ -14,7 +14,7 @@ formatter.scenario({
     }
   ]
 });
-formatter.write("Mon Aug 19 16:58:59 EDT 2019 Pass: Successfully navigated to https://login.nextbasecrm.com/");
+formatter.write("Mon Aug 19 17:28:37 EDT 2019 Pass: Successfully navigated to https://login.nextbasecrm.com/");
 formatter.before({
   "status": "passed"
 });
@@ -87,9 +87,8 @@ formatter.step({
 formatter.match({
   "location": "ActivityStream_StepDefs.verifyUserCanUploadAFileAndImage()"
 });
+formatter.write("Mon Aug 19 17:29:14 EDT 2019 Pass: Image successfully uploaded");
 formatter.embedding("image/png", "embedded2.png");
-formatter.write("Mon Aug 19 16:59:37 EDT 2019 Pass: Image successfully uploaded");
-formatter.embedding("image/png", "embedded3.png");
 formatter.result({
   "status": "passed"
 });
@@ -100,9 +99,8 @@ formatter.step({
 formatter.match({
   "location": "ActivityStream_StepDefs.iShouldBeAbleToSetUpADeadlineForNewTask()"
 });
-formatter.embedding("image/png", "embedded4.png");
-formatter.write("Mon Aug 19 16:59:49 EDT 2019 Pass: Deadline successfully set up");
-formatter.embedding("image/png", "embedded5.png");
+formatter.write("Mon Aug 19 17:29:26 EDT 2019 Pass: Deadline successfully set up");
+formatter.embedding("image/png", "embedded3.png");
 formatter.result({
   "status": "passed"
 });
@@ -113,9 +111,8 @@ formatter.step({
 formatter.match({
   "location": "ActivityStream_StepDefs.iClickOnCreateSendButtonToCreateATask()"
 });
-formatter.embedding("image/png", "embedded6.png");
-formatter.write("Mon Aug 19 16:59:54 EDT 2019 Pass: Task successfully created");
-formatter.embedding("image/png", "embedded7.png");
+formatter.write("Mon Aug 19 17:29:31 EDT 2019 Pass: Task successfully created");
+formatter.embedding("image/png", "embedded4.png");
 formatter.result({
   "status": "passed"
 });

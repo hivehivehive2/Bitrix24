@@ -81,7 +81,6 @@ public class Common_Impl {
     public void verifyUserCanUploadAFileAndImage() {
         activityStreamPage.uploadFilesImages2.sendKeys("/Users/aigulzhaanbaeva/Downloads/images.jpg");
         Utilities.waitFor(3);
-        Utilities.screenShot();
     }
 
     public void setUpADeadlineForNewTask() {
@@ -97,7 +96,6 @@ public class Common_Impl {
        // action.contextClick(activityStreamPage.deadlineSelect);
         activityStreamPage.deadlineSelect.click();
         Utilities.waitFor(4);
-        Utilities.screenShot();
     }
 
     public void clickOnCreateButtonToCreateATask() {
@@ -106,6 +104,5 @@ public class Common_Impl {
         activityStreamPage.sendButton.click();
         //action.click(activityStreamPage.sendButton).perform();
         Utilities.waitFor(4);
-        Utilities.screenShot();
     }
 }
